@@ -5,6 +5,11 @@ import App from './App'
 import Vuex from 'vuex'
 import router from './router'
 
+import '../static/css/amazeui.min.css';
+import '../static/css/app.css';
+import jquery from './assets/bc-js/jquery.min'
+import amazeui from './assets/bc-js/amazeui.min'
+
 Vue.use(Vuex)
 Vue.config.productionTip = false
 
